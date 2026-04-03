@@ -13,28 +13,28 @@ Current repo baseline:
 - Existing app shell under `src/app`
 
 ## 1. Scope Lock and Delivery Rules
-- [ ] Confirm in-scope modules: Profile, Salary, Leave, Admin Panel
-- [ ] Confirm out-of-scope module: Online Services
-- [ ] Freeze primary personas: Employee, Manager, HR Admin
-- [ ] Keep implementation aligned to this repo architecture, not a separate React Router + Express split
-- [ ] Define Definition of Done for every feature: UI, validation, persistence, role checks, loading/error states, responsive behavior, tests
+- [x] Confirm in-scope modules: Profile, Salary, Leave, Admin Panel
+- [x] Confirm out-of-scope module: Online Services
+- [x] Freeze primary personas: Employee, Manager, HR Admin
+- [x] Keep implementation aligned to this repo architecture, not a separate React Router + Express split
+- [x] Define Definition of Done for every feature: UI, validation, persistence, role checks, loading/error states, responsive behavior, tests
 
 ## 2. App Architecture for This Repo
-- [ ] Define route structure in `src/app` for auth, dashboard, leave, profile, salary, and admin areas
-- [ ] Decide shared layout strategy for authenticated pages using nested layouts
-- [ ] Define where server components, client components, server actions, and route handlers will be used
-- [ ] Create a data-access layer for Prisma queries and mutations
-- [ ] Add shared domain types and validation schemas for form and API boundaries
-- [ ] Define status enums and role enums once and reuse them across UI and database code
+- [x] Define route structure in `src/app` for auth, dashboard, leave, profile, salary, and admin areas
+- [x] Decide shared layout strategy for authenticated pages using nested layouts
+- [x] Define where server components, client components, server actions, and route handlers will be used
+- [x] Create a data-access layer for Prisma queries and mutations
+- [x] Add shared domain types and validation schemas for form and API boundaries
+- [x] Define status enums and role enums once and reuse them across UI and database code
 
 ## 3. Design System and DRD Foundations
-- [ ] Add DRD color, spacing, radius, shadow, and typography tokens to the app theme
-- [ ] Refactor global styles to use tokens instead of one-off values
-- [ ] Extend UI primitives for LMS needs: buttons, inputs, selects, textareas, badges, cards, tables, modals, breadcrumbs, stepper, toast
-- [ ] Build desktop sidebar and mobile navigation patterns described in the DRD
-- [ ] Add notification bell with unread count in the top header
-- [ ] Implement empty states, loading skeletons, and confirmation dialogs
-- [ ] Ensure components meet the DRD click target, hover, disabled, and focus behaviors
+- [x] Add DRD color, spacing, radius, shadow, and typography tokens to the app theme
+- [x] Refactor global styles to use tokens instead of one-off values
+- [x] Extend UI primitives for LMS needs: buttons, inputs, selects, textareas, badges, cards, tables, modals, breadcrumbs, stepper, toast
+- [x] Build desktop sidebar and mobile navigation patterns described in the DRD
+- [x] Add notification bell with unread count in the top header
+- [x] Implement empty states, loading skeletons, and confirmation dialogs
+- [x] Ensure components meet the DRD click target, hover, disabled, and focus behaviors
 
 ## 4. Database and Prisma Expansion
 - [ ] Replace the minimal schema with the full LMS schema required by the documents
